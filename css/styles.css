@@ -11,6 +11,7 @@ body {
     max-width: 100dvw;
 }
 
+
 /* ----HEADER---- */
 header {
     background-color: #eee;
@@ -52,6 +53,7 @@ header {
 .header__logo {
     max-width: 6.7rem;
 }
+
 
 /* ----MAIN---- */
 .main, .main__ubicacion {
@@ -121,7 +123,6 @@ header {
 .div__parrafo__a:hover {
     color: #b8a965;
 }
-
 
 .productos {
     text-align: center;
@@ -334,6 +335,7 @@ h3 {
     font-size: 1.3rem;
 }
 
+
 /* PÁGINA NOSOTROS algunas clases específicas */
 
 .section__nosotros {
@@ -396,6 +398,7 @@ h3 {
     }
 }
 
+
 /* PÁGINA UBICACIÓN algunas clases específicas */
 
 .section__titulo2 {
@@ -452,6 +455,7 @@ h3 {
         font-weight: 400;
     }
 }
+
 
 /* PÁGINA CONTACTO algunas clases específicas */
 
