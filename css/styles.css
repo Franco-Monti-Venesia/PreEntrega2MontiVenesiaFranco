@@ -475,6 +475,10 @@ h3 {
     display: flex;
     justify-content: space-between; /* Espacio equitativo entre los elementos */
     align-items: center; /* Alinear los elementos verticalmente */
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 1%;
+    box-shadow: 0 0 10px 1px #ddd;
 }
 
 .section__div__redes {
@@ -482,7 +486,35 @@ h3 {
     align-items: center;
     background-color: #fffc;
     border-radius: 15px;
-    padding: 1%;
+    padding: 0.5%;
+    box-shadow: 0 0 10px 1px #ddd;
+}
+
+.redes__wsp:hover {
+    background-color: #25d36699;
+    border-radius: 15px;
+    padding: 0.5%;
+    box-shadow: 0 0 10px 1px #ddd;
+}
+
+.redes__face:hover {
+    background-color: #3b59c8aa;
+    border-radius: 15px;
+    padding: 0.5%;
+    box-shadow: 0 0 10px 1px #ddd;
+}
+
+.redes__inst:hover {
+    background-color: #9e37b8ac;
+    border-radius: 15px;
+    padding: 0.5%;
+    box-shadow: 0 0 10px 1px #ddd;
+}
+
+.redes__gmail:hover {
+    background-color: #c71610ac;
+    border-radius: 15px;
+    padding: 0.5%;
     box-shadow: 0 0 10px 1px #ddd;
 }
 
