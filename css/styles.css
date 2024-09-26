@@ -457,7 +457,7 @@ h3 {
 /* PÁGINA CONTACTO algunas clases específicas */
 .formulario {
     width: 100%;
-    padding: 3% 15% 3% 15%;
+    padding: 5% 5% 5% 5%;
     margin-bottom: 8%;
 }
 
@@ -512,7 +512,7 @@ h3 {
 }
 
 .redes__gmail:hover {
-    background-color: #c71610ac;
+    background-color: #c7161099;
     border-radius: 15px;
     padding: 0.5%;
     box-shadow: 0 0 10px 1px #ddd;
