@@ -30,46 +30,57 @@
                 </ul>
             </nav>
         </header>
-        <!-- AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACCCCCCCCCCCCCCCCCCCCAAAAAAAAAAAAAAAAAAA -->
-        <!-- AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACCCCCCCCCCCCCCCCCCCCAAAAAAAAAAAAAAAAAAA -->
-        <main>
+
+        <main class="main">
             <h2 class="main__titulo">CONTACTANOS EN REDES O POR FORMULARIO</h2>
-            <form action="/submit" method="post">
-                <label for="nombre">Nombre:</label>
-                <input type="text" id="nombre" name="nombre">
-                <label for="apellido">Apellido:</label>
-                <input type="text" id="apellido" name="apellido">
-                <label for="telefono">Teléfono:</label>
-                <input type="tel" id="telefono" name="telefono">
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email">
-                <label for="mensaje">Mensaje:</label>
-                <textarea id="mensaje" name="mensaje" rows="4" cols="50"></textarea>
-            </form>
-            <section>
-                <div>
-                    <div>
-                        <a href="https://www.whatsapp.com/"> 
-                            <img src="../img/whatsapp.png" alt="imagen whatsapp"> Whatsapp
-                        </a>
-                    </div>
-                    <div>
-                        <a href="https://www.facebook.com/"> 
-                            <img src="../img/facebook.webp" alt="imagen facebook"> Facebook
-                        </a>
-                    </div>
-                    <div>
-                        <a href="https://www.instagram.com/"> 
-                            <img src="../img/Instagram.png" alt="imagen instagram"> Instagram
-                        </a>
-                    </div>
-                    <div>
-                        <a href="https://www.gmail.com/"> 
-                            <img src="../img/gmail.png" alt="imagen whatsapp"> Correo Electrónico
-                        </a>
-                    </div>
+            <section class="section__nosotros formulario">
+                <!-- CODIGO CON BOOSTRAP -->
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Nombre</label>
+                    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Nombre">
                 </div>
-                </form>
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Apellido</label>
+                    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Apellido">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Telefono</label>
+                    <input type="number" class="form-control" id="exampleFormControlInput1" placeholder="Numero de Telefono">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Mensaje"></textarea>
+                </div>
+                <div class="d-grid gap-2">
+                    <button class="btn btn-primary" type="button">Button</button>
+                </div>
+            </section>
+
+            <section class="section__redes">
+                <div class="section__div__redes">
+                    <a class="section__link__redes" href="https://www.whatsapp.com/"> 
+                        <img class="section__img__redes" src="../img/whatsapp.png" alt="imagen whatsapp"> Whatsapp
+                    </a>
+                </div>
+                <div class="section__div__redes">
+                    <a class="section__link__redes" href="https://www.facebook.com/"> 
+                        <img class="section__img__redes" src="../img/facebook.webp" alt="imagen facebook"> Facebook
+                    </a>
+                </div>
+                <div class="section__div__redes">
+                    <a class="section__link__redes" href="https://www.instagram.com/"> 
+                        <img class="section__img__redes" src="../img/Instagram.png" alt="imagen instagram"> Instagram
+                    </a>
+                </div>
+                <div class="section__div__redes">
+                    <a class="section__link__redes" href="https://www.gmail.com/"> 
+                        <img class="section__img__redes" src="../img/gmail.png" alt="imagen whatsapp"> Correo Electrónico
+                    </a>
+                </div>
             </section>
         </main>
 

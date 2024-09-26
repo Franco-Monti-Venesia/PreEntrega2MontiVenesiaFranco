@@ -470,3 +470,36 @@ h3 {
     font-weight: 500;
     margin: 0;
 }
+
+.section__redes {
+    display: flex;
+    justify-content: space-between; /* Espacio equitativo entre los elementos */
+    align-items: center; /* Alinear los elementos verticalmente */
+}
+
+.section__div__redes {
+    display: flex;
+    align-items: center;
+    background-color: #fffc;
+    border-radius: 15px;
+    padding: 1%;
+    box-shadow: 0 0 10px 1px #ddd;
+}
+
+.section__link__redes {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: #928962;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.section__link__redes:hover {
+    color: #b8a965;
+}
+
+.section__img__redes {
+    width: 24px;
+    margin-right: 5px;
+}
