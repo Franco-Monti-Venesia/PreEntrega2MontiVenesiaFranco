@@ -85,7 +85,7 @@ function actualizarCarrito() {
         // Crear botón de eliminar
         const deleteButton = document.createElement("button");
         deleteButton.textContent = "Eliminar";
-        deleteButton.classList.add("delete-btn");
+        deleteButton.classList.add("borrar__btn");
         deleteButton.addEventListener("click", () => {
             carrito.eliminarProducto(item.nombre); // Eliminar producto del carrito
             actualizarCarrito(); // Actualizar la vista

@@ -91,7 +91,7 @@ button:hover {
 }
 
 /* Botón de eliminar */
-.section__carta .delete-btn {
+.section__carta .borrar__btn {
     background-color: #ff4d4d;
     color: white;
     border: none;
@@ -102,6 +102,6 @@ button:hover {
     margin-left: 10px;
 }
 
-.section__carta .delete-btn:hover {
+.section__carta .borrar__btn:hover {
     background-color: #cc0000;
 }
